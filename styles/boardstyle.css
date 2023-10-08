@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "inkfree";
+    src: url(Inkfree.ttf);
+}
+  
+body {      /*fond de la page*/
+    color: black;
+    background-color: #eef2ff;
+    font-family: inkfree;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+#panel {    /*image de la board*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color:#800;
+    text-decoration-color: #800;
+}
+
+a:visited {
+    color:#800;
+}
+
+a:hover {
+    color:red;
+    text-decoration-color: red;
+}
+
+h1 {    /*pour titre de board*/
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    color: #af0a0f;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {        /*sous titre de la board*/
+    font-size: 30px;
+}
+
+h3 {        /*titre de post*/
+    font-size:20px;
+    margin-left: 30px;
+    color: #800;
+    font-weight: bolder;
+}
+
+
+
+/*post*/
+.posthr {
+    margin-left:30px;
+    margin-right:30px;
+}
+
+#pid {
+    margin-left:60px;
+}
+
+
+/*grid pour titre+ separation post/tags*/
+.titr {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+
+.titr-item {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.titr-item2 {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    border-left:dotted;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/img/icone.gif" type="image/gif">
+    <title>APSRésumé - APS3</title>
+    <link href="/styles/boardstyle.css" rel="stylesheet" type="text/css" />
+    <script src="/javascript/boardmenu.js" type="text/javascript" defer></script>
+    </head>
+    <body>
+        <header>
+            
+            <div id="myDIV">        <!--menu + boutton-->
+                <board-menu></board-menu>
+            </div>
+            <button onclick="myFunction()">basculer le menu</button>
+            
+            <img src="/img/3panel.png" alt="3panel" title="Prévention et sécurité" id="panel"> <!--titre + img de la board-->
+            <h1>APS3 - Prévention et sécurité</h1>
+            <hr>
+
+        </header>
+
+        <div class="titr">      <!--titres--> <!--a deplacer dans le body-->
+            <div class="titr-item">
+                <h2>Publication:</h2>
+            </div>
+            <div class="titr-item2">
+                <h2>Mots clés:</h2>
+            </div>
+        </div>
+
+        <div class="titr">      <!--post&tags-->
+
+            <div>       <!--posts-->
+                <hr class="posthr">
+                <h3><a href = "post/Hygiene_hospitaliere.pdf">Hygiène hospitalière</a></h3>
+                <p id="pid">Théorie Hygiène hospitalière</p>
+                <p id="pid">Marco | 08.10.23 | Complété</p>
+                <hr class="posthr">
+            </div>
+            <div>       <!--tags-->
+                <hr class="posthr">
+                <p id = "pid">&nbsp;</p>
+                <p id= "pid">hygiène hospitalière,théorie</p>
+                <p id="pid">&nbsp;</p>
+                <hr class="posthr">
+            </div>
+
+        </div>
+
+    </body>
+</html>
