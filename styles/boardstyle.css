@@ -69,6 +69,11 @@ h3 {        /*titre de post*/
 #pid {
     margin-left:60px;
 }
+#pidr {
+    margin-left:60px;
+    color:red;
+}
+
 
 
 /*grid pour titre+ separation post/tags*/
